@@ -11,6 +11,6 @@ class time extends Script
 
     public function run()
     {
-        return $this->send($this->message->number, date(DATE_RFC822));
+        return $this->send(date(DATE_RFC822));
     }
 }
