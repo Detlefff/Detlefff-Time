@@ -3,8 +3,8 @@ date_default_timezone_set('UTC');
 
 class time extends Script
 {
-    protected $helpMessage = "'time'\n";
-    protected $description = 'Returns the actual UTC-time';
+    protected static $helpMessage = "'time'\n";
+    protected static $description = 'Returns the actual UTC-time';
 
     public function run()
     {
